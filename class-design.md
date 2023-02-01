@@ -38,3 +38,5 @@ class LEDDisplay
     + turn_off()
 }
 ```
+
+![](./Pictures/class_design_V1.png)
