@@ -37,6 +37,12 @@ class LEDDisplay
     + turn_on()
     + turn_off()
 }
+
+
+LEDDisplay "1" *-- "2" SevenSegment
+SevenSegment "1" *-- "8" LED
+
+
 ```
 
 ![](./Pictures/class_design_V1.png)
