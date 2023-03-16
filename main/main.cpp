@@ -30,11 +30,11 @@ seven_segment ss2(SEG_A, SEG_B, SEG_C, SEG_D, SEG_E, SEG_F, SEG_G, SEG_DP, DIG_2
 
 void Display7Segment(int i)
 {
-	ss1.set_value(i % 10);
+	ss1.set_value(i / 10);
 	ss1.enable(1);
 	usleep(10000);
 	ss1.enable(0);
-	ss2.set_value(i / 10);
+	ss2.set_value(i % 10);
 	ss2.enable(1);
 	usleep(10000);
 	ss2.enable(0);
