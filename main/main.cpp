@@ -46,7 +46,7 @@ void app_main(void)
 	uint32_t j = 0;
 	while (true)
     {
-		if(j++ > 20)
+		if(j++ > 40)
 		{
 			i++;
 			j = 0;
